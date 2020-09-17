@@ -1,0 +1,57 @@
+h1{
+    color: rgb(160, 0, 193);
+    margin-left: 30px;
+}
+h2{
+    color: rgb(255, 255, 55);
+    margin-left: 30px;
+}
+.header *{
+    border: solid;
+}
+.header{
+    background-color: rgb(255, 158, 55);
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    position: relative;  
+}
+.item img{
+    transform: scale(0.5);  
+}
+.item p{
+    position: absolute;
+    top: 50%;                               
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    color: rgb(255, 255, 55);
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.33;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+p, h2{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+body{
+    background-color: rgb(172, 0, 187);
+}
+a:link{
+    color: rgb(68, 68, 255);
+}
+a:visited{
+    color: rgb(0, 0, 201);
+}
